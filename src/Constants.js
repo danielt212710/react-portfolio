@@ -1,9 +1,9 @@
-import Fourth from "./Assets/Projects/4.jpg";
-import Third from "./Assets/Projects/3.jpg";
-import Fifth from "./Assets/Projects/5.jpg";
-import First from "./Assets/Projects/1.jpg";
-import Sixth from "./Assets/Projects/6.jpg";
-import Second from "./Assets/Projects/2.jpg";
+import Fourth from "./Assets/Projects/4.png";
+import Third from "./Assets/Projects/3.png";
+import Fifth from "./Assets/Projects/5.png";
+import First from "./Assets/Projects/1.png";
+import Sixth from "./Assets/Projects/6.png";
+import Second from "./Assets/Projects/2.png";
 
 
 export const PROJECTS = [
