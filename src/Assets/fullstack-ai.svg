@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Full-stack and AI engineering illustration">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#eef2fb"/>
+      <stop offset="1" stop-color="#f6eefb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#1f2937" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <circle cx="250" cy="250" r="235" fill="url(#bg)"/>
+
+  <!-- AI neural links -->
+  <g stroke="#9aa5b8" stroke-width="2" fill="none">
+    <path d="M150 70 L215 95 M150 135 L215 120 M110 102 L150 70 M110 102 L150 135"/>
+    <path d="M350 70 L285 95 M350 135 L285 120 M390 102 L350 70 M390 102 L350 135"/>
+  </g>
+  <g fill="#ffffff" stroke="#f5a524" stroke-width="3">
+    <circle cx="150" cy="70" r="8"/>
+    <circle cx="150" cy="135" r="8"/>
+    <circle cx="110" cy="102" r="8"/>
+    <circle cx="350" cy="70" r="8"/>
+    <circle cx="350" cy="135" r="8"/>
+    <circle cx="390" cy="102" r="8"/>
+  </g>
+
+  <!-- AI chip -->
+  <g stroke="#343a40" stroke-width="4" stroke-linecap="round">
+    <path d="M232 60 v-10 M250 60 v-10 M268 60 v-10"/>
+    <path d="M232 150 v10 M250 150 v10 M268 150 v10"/>
+    <path d="M205 87 h-10 M205 105 h-10 M205 123 h-10"/>
+    <path d="M295 87 h10 M295 105 h10 M295 123 h10"/>
+  </g>
+  <rect x="205" y="60" width="90" height="90" rx="14" fill="#343a40" filter="url(#shadow)"/>
+  <rect x="218" y="73" width="64" height="64" rx="8" fill="none" stroke="#f5a524" stroke-width="2.5"/>
+  <text x="250" y="116" text-anchor="middle" font-family="Raleway, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">AI</text>
+
+  <!-- data flow from AI into the stack -->
+  <path d="M250 162 V186" stroke="#f5a524" stroke-width="3" stroke-dasharray="5 5"/>
+
+  <!-- Database layer -->
+  <g filter="url(#shadow)">
+    <path d="M140 395 L250 440 L250 462 L140 417 Z" fill="#179a79"/>
+    <path d="M250 440 L360 395 L360 417 L250 462 Z" fill="#117a60"/>
+    <path d="M250 350 L360 395 L250 440 L140 395 Z" fill="#1fb58f"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="2.5">
+    <ellipse cx="250" cy="385" rx="22" ry="7"/>
+    <path d="M228 385 v20 a22 7 0 0 0 44 0 v-20"/>
+    <path d="M228 395 a22 7 0 0 0 44 0"/>
+  </g>
+
+  <!-- Backend layer -->
+  <g filter="url(#shadow)">
+    <path d="M140 310 L250 355 L250 377 L140 332 Z" fill="#6344e0"/>
+    <path d="M250 355 L360 310 L360 332 L250 377 Z" fill="#4d33b8"/>
+    <path d="M250 265 L360 310 L250 355 L140 310 Z" fill="#7c5cff"/>
+  </g>
+  <text x="250" y="319" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="24" font-weight="700" fill="#ffffff">{ API }</text>
+
+  <!-- Frontend layer -->
+  <g filter="url(#shadow)">
+    <path d="M140 225 L250 270 L250 292 L140 247 Z" fill="#3a6fd8"/>
+    <path d="M250 270 L360 225 L360 247 L250 292 Z" fill="#2c58b0"/>
+    <path d="M250 180 L360 225 L250 270 L140 225 Z" fill="#4f8cff"/>
+  </g>
+  <text x="250" y="234" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="26" font-weight="700" fill="#ffffff">&lt;/&gt;</text>
+
+  <!-- labels -->
+  <g font-family="Raleway, Arial, sans-serif" font-size="15" font-weight="700" fill="#414141">
+    <text x="128" y="205" text-anchor="end">Frontend</text>
+    <text x="372" y="290">Backend</text>
+    <text x="128" y="375" text-anchor="end">Data</text>
+    <text x="250" y="30" text-anchor="middle">LLMs · Agents · RAG</text>
+  </g>
+
+  <!-- floating accents -->
+  <g fill="none" stroke="#9aa5b8" stroke-width="2.5" stroke-linecap="round">
+    <circle cx="405" cy="210" r="11"/>
+    <path d="M405 192 v-5 M405 228 v5 M387 210 h-5 M423 210 h5"/>
+    <path d="M78 285 l-10 10 l10 10 M100 285 l10 10 l-10 10"/>
+  </g>
+</svg>

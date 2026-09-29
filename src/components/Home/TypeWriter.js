@@ -8,7 +8,7 @@ function TypeWriter() {
         strings: [
           "Front End Developer",
           "Back End Developer",
-          "Software Engineer",
+          "AI Engineer",
           "Open Source Contributor",
         ],
         autoStart: true,

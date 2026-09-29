@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/sunil.jpg";
+import heroImg from "../../Assets/engineer-avatar.svg";
 import SocialMedia from "../SocialMedia";
 import TypeWriter from "./TypeWriter";
 
@@ -20,14 +20,14 @@ function Home() {
 
               <h1 className="heading-name">
                 I'M
-                <strong className="main-name"> Sunil Yadav</strong>
+                <strong className="main-name"> Roger Herzfeldt</strong>
               </h1>
 
               <p className="heading-description blockquote">
-                I am passionate about using Javascript and Animation Libraries
-                to create awesome user experiences. With over five years of
-                experience developing web applications using the latest
-                front-end and back-end technologies.
+                I am passionate about building scalable full-stack applications and AI-powered solutions. 
+                With over 10+ years of experience developing web applications using C#, .NET, React, JavaScript, 
+                and cloud technologies, I specialize in creating robust backend systems, intuitive user experiences, 
+                and intelligent applications powered by Generative AI and LLMs.
               </p>
 
               <div className="heading-type">
@@ -36,7 +36,11 @@ function Home() {
             </Col>
 
             <Col md={5}>
-              <img src={myImg} className="profile-pic" alt="avatar" />
+              <img
+                src={heroImg}
+                className="profile-pic"
+                alt="Full-stack and AI engineering illustration"
+              />
             </Col>
           </Row>
         </Container>

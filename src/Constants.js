@@ -1,97 +1,89 @@
-import AUTOMATION from "./Assets/Projects/3automation.jpg";
-import COAST from "./Assets/Projects/coast.jpg";
+import Fourth from "./Assets/Projects/4.jpg";
+import Third from "./Assets/Projects/3.jpg";
 import DROPSHIP from "./Assets/Projects/dropship.jpg";
 import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png";
-import GUAMEDIA from "./Assets/Projects/guamedia.jpg";
+import Fifth from "./Assets/Projects/5.jpg";
 import HSP from "./Assets/Projects/hsp.png";
-import COSMOS from "./Assets/Projects/cosmos.jpg";
-import TECHSPEC from "./Assets/Projects/techspec.png";
-import TRAVELWELL from "./Assets/Projects/travelwell.png";
+import First from "./Assets/Projects/1.jpg";
+import Sixth from "./Assets/Projects/6.jpg";
+import Second from "./Assets/Projects/2.jpg";
 
 
 export const PROJECTS = [
   {
-    image: COSMOS,
-    name: "Micorsoft Azure Cosmos DB",
-    technologyUsed: "ReactJs, Javascript, Redux, knockout.js, Jest",
-    description: "Azure Cosmos DB is Microsoft's proprietary globally distributed, multi-model database service 'for managing data at planet-scale' Azure Cosmos DB is a fully managed NoSQL database for modern app development. Single-digit millisecond response times, and automatic and instant scalability, guarantee speed at any scale.",
-    url: "https://cosmos.azure.com/",
-  },
-  {
-    image: TRAVELWELL,
-    name: "travlwell.com",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL",
-    description: "Custom Luggage Tags and Passport Holders engraved with everywhere you've traveled and everywhere you will travel in the future.",
-    url: "https://travlwell.com/",
-  },
-  {
-    image: COAST,
-    name: "Coast",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Team collaboration mobile app and online services like slack Message people and groups without sharing phone numbers, communicate with managers and staff all in one place. and discuss or assign tasks to get stuff done",
-    url: "https://play.google.com/store/apps/details?id=com.fomo.android.app",
-  },
-  {
-    image: AUTOMATION,
-    name: "3automation.com (RPA)",
-    technologyUsed: "ReactJs, Typescript, Redux",
-    description: "The next-gen Robotic Process Automation (#RPA) platform for retail and telecom domains. The ultimate automation platform for your Shopify, Email, E- commerce shop",
-    url: "https://www.3automation.com/",
-  },
-  {
-    image: GUAMEDIA,
-    name: "GuaMedia",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Social media mobile app similar to Twitter for china. Social networking GUOMEDIA is an all-in-one social networking platform where users can build their own user profiles, create their own posts, Livestream broadcast and follow each other",
-    url: "https://play.google.com/store/apps/details?id=com.tiu.guo.media",
-  },
-  {
-    image: TECHSPEC,
-    name: "TechSpec",
-    technologyUsed: "ReactJs, Typescript, Redux",
-    description: "TechSpec is e-commerce web app. User can compare his product and purchange. This had a dashboard web app which had the data of orders placed and type of user.",
+    image: First,
+    name: "Workflow Automation | Fintech CRM & ERP",
+    technologyUsed: "Python, Django, PostgreSQL, Docker, OAuth, and API integrations.",
+    description: " Airwallex - Built an automated bank reconciliation system connecting Airwallex with Fortnox for a Nordic finance team handling cross-border, multi-currency payments. Developed near-real-time transaction ingestion via signed webhooks and API sync, automated invoice matching, and supplier-invoice creation in Fortnox. Ambiguous transactions were routed to manual review with full audit trails.",
     url: "",
   },
   {
-    image: HSP,
-    name: "HSP (Health Solution Plus)",
-    technologyUsed: "ReactJs, Javascript, Redux",
-    description: "This is a Healthcare sector project which would be developed as replica of a desktop application. My responsibilities in this project are to develop UI, perform searching of medical codes and categories, addition/updation of codes and categories.",
+    image: Second,
+    name: "Full-Stack Web Development | AI, Web Design & Responsive Development",
+    technologyUsed: "React, JavaScript, CSS Framework, SaaS Development, Web Development",
+    description: "Developed a modern healthcare web application using React.js with a focus on performance, scalability, and clean UI/UX. Built reusable components, implemented responsive design, and ensured fast loading across devices. Optimized rendering and structure for better speed and user experience. Delivered a scalable frontend architecture ready for future enhancements and integrations.",
+    url: "https://www.ozarihealth.com/",
+  },
+  {
+    image: Third,
+    name: "Real estate Full stack web development work",
+    technologyUsed: "UX & UI Design, Responsive Design, Website, Web Development, Web Application Development",
+    description: "Developed a modern, responsive website for Southbrook Property, focused on presenting its building, landscaping, and property services in a clear and professional way.",
+    url: "https://southbrookproperty.co.uk/",
+  },
+  {
+    image: Fourth,
+    name: "AI-Powered EdTech & Digital Library Platform",
+    technologyUsed: "Full-Stack Development, Next.js, Vector Database, Node.js, AI App Development",
+    description: "As Full Stack Developer, I built a multi-role system for students, teachers, and admins using Next.js, TypeScript, and Node.js/Express. Implemented AI-powered content exploration with Weaviate Vector Database for intelligent, conversational document interaction, part of my ongoing AI Chatbot Development work. Also built note-taking tools and secure payment processing via PayTech for this EdTech platform.MongoDB Vector Search that finds products, places orders, and tracks deliveries autonomously, not just answering questions. As Full Stack Developer, I built the entire platform: Next.js/TypeScript frontend, Node.js backend, Firebase auth, Redis caching, Socket.io for real-time chat, and an admin dashboard.",
     url: "",
   },
   {
-    image: DROPSHIP,
-    name: "DropShip Shopify App",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL, Nodejs, Koajs",
-    description: "It is customized clothes shopify app which fetch order from store and give option to customize product and send detail to store owner. Also maintain tracking etc of product.",
+    image: Fifth,
+    name: "B2C Marketplace | AI Search, User Behavior Tracking",
+    technologyUsed: "Machine Learning, React, Node.js, ExpressJS, MongoDB",
+    description: "Developed a multi-vendor platform with intelligent product recommendations and search suggestions powered by ML. Includes vendor analytics, fraud detection, and scalable architecture built with MERN and integrated AI models.",
     url: "",
   },
   {
-    image: GOOD_FOOD_DISCOUNTS,
-    name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
+    image: Sixth,
+    name: "HealthCare Management System",
+    technologyUsed: "Next.js, React, React Native, .NET Core, ASP.NET",
+    description: "I designed and developed a comprehensive HealthCare Management System aimed at streamlining operations for clinics and hospitals. The platform provides an intuitive dashboard, secure data management, and tools for improved communication between staff and administration. The system was built with a focus on efficiency, scalability, and user-friendly experience, enabling healthcare providers to manage patients, appointments, and staff from a centralized interface.",
     url: "",
   },
 ];
 
 export const SKILLS = [
-  { name: "ReactJs", initialRating: 4 },
-  { name: "React-Native", initialRating: 4 },
-  { name: "JavaScript", initialRating: 4 },
-  { name: "Redux", initialRating: 4 },
-  { name: "Shopify/Reactjs", initialRating: 4 },
-  { name: "Nodejs", initialRating: 3 },
-  { name: "Koajs", initialRating: 3 },
-  { name: "Html", initialRating: 4 },
-  { name: "CSS", initialRating: 4 },
-  { name: "Unit-Testing(Jest)", initialRating: 3 },
-  { name: "TypeScript", initialRating: 4 },
-  { name: "Graphql", initialRating: 4 },
-  { name: "Apollo", initialRating: 4 },
-  { name: "AntD | ReactStrap | Material UI", initialRating: 4 },
-  { name: "Shopify Polaris", initialRating: 4 },
-  { name: "Git", initialRating: 4 },
+  { name: "React / Next.js", initialRating: 5 },
+  { name: "TypeScript / JavaScript", initialRating: 5 },
+  { name: "Node.js / Express", initialRating: 4 },
+  { name: "Python / FastAPI", initialRating: 4 },
+  { name: "GraphQL / REST APIs", initialRating: 4 },
+  { name: "PostgreSQL / MongoDB", initialRating: 4 },
+  { name: "LLM Integration (OpenAI / Claude)", initialRating: 5 },
+  { name: "Prompt Engineering", initialRating: 5 },
+  { name: "RAG & Vector DBs", initialRating: 4 },
+  { name: "LangChain / LlamaIndex", initialRating: 4 },
+  { name: "AI Agents & Tool Calling", initialRating: 4 },
+  { name: "Docker / Kubernetes", initialRating: 4 },
+  { name: "AWS / GCP / Vercel", initialRating: 4 },
+  { name: "CI/CD (GitHub Actions)", initialRating: 4 },
+  { name: "Testing (Jest / Pytest)", initialRating: 4 },
+  { name: "Tailwind / Material UI", initialRating: 4 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Chrome DevTools", "Npm (Node Package Manager)", "Atom", "Sublime Text", "Linux", "Heroku", "Postman"]
+export const TOOLS = [
+  "Visual Studio Code / Cursor",
+  "Claude Code / GitHub Copilot",
+  "Git & GitHub",
+  "Docker",
+  "Postman",
+  "Jupyter Notebook",
+  "Hugging Face",
+  "Pinecone / pgvector",
+  "LangSmith",
+  "Supabase / Firebase",
+  "Vercel / AWS",
+  "Linux",
+];

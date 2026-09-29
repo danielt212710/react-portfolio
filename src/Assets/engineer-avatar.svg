@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Illustrated engineer avatar">
+  <defs>
+    <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#a8dcea" stroke-width="3"/>
+    </pattern>
+    <pattern id="stubble" width="7" height="7" patternUnits="userSpaceOnUse">
+      <circle cx="3.5" cy="3.5" r="1.3" fill="#8ccbdc"/>
+    </pattern>
+  </defs>
+
+  <g stroke="#6b3fd6" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+    <!-- striped backdrop -->
+    <rect x="20" y="150" width="460" height="230" fill="url(#hatch)" stroke="none"/>
+
+    <!-- body / t-shirt -->
+    <path d="M70 500 C80 420 160 392 212 384 L288 384 C340 392 420 420 430 500 Z" fill="#a8dcea"/>
+    <!-- neck -->
+    <path d="M214 320 L214 388 Q250 418 286 388 L286 320 Z" fill="#ffffff"/>
+    <path d="M214 368 Q250 384 286 368" fill="none" stroke-width="3"/>
+
+    <!-- ears -->
+    <ellipse cx="163" cy="248" rx="17" ry="27" fill="#ffffff"/>
+    <ellipse cx="337" cy="248" rx="17" ry="27" fill="#ffffff"/>
+
+    <!-- face -->
+    <path d="M166 175 C160 262 176 328 250 352 C324 328 340 262 334 175 Z" fill="#ffffff"/>
+    <!-- stubble -->
+    <path d="M178 280 C188 322 212 342 250 350 C288 342 312 322 322 280 C300 300 280 292 250 296 C220 292 200 300 178 280 Z" fill="url(#stubble)" stroke="none"/>
+
+    <!-- hair (neat side part with a quiff) -->
+    <path d="M180 130 C182 100 196 84 214 78 L206 58 C226 66 238 72 246 80 L256 50 C270 64 280 78 286 90 L316 76 C318 96 322 114 330 130 Z" fill="#a8dcea"/>
+    <path d="M160 215 C146 140 184 92 246 86 C300 82 332 104 344 140 C356 172 348 196 340 214 C334 186 320 170 300 164 C300 150 290 138 276 132 C262 154 228 166 190 168 C176 178 166 196 160 215 Z" fill="#a8dcea"/>
+    <path d="M232 94 C246 110 262 122 276 132" fill="none" stroke-width="3"/>
+    <path d="M300 112 C314 126 322 142 326 160" fill="none" stroke-width="3"/>
+
+    <!-- headset band -->
+    <path d="M148 248 C136 96 364 96 352 248" fill="none" stroke-width="10"/>
+    <rect x="136" y="224" width="26" height="52" rx="12" fill="#a8dcea"/>
+    <rect x="338" y="224" width="26" height="52" rx="12" fill="#a8dcea"/>
+    <!-- mic boom -->
+    <path d="M150 276 Q160 334 222 332" fill="none" stroke-width="5"/>
+    <circle cx="228" cy="331" r="8" fill="#6b3fd6"/>
+
+    <!-- eyebrows -->
+    <path d="M190 198 Q212 186 236 196" fill="none" stroke-width="9"/>
+    <path d="M264 196 Q288 186 310 198" fill="none" stroke-width="9"/>
+
+    <!-- glasses -->
+    <rect x="182" y="212" width="58" height="42" rx="14" fill="#e3f4f9" fill-opacity="0.6"/>
+    <rect x="260" y="212" width="58" height="42" rx="14" fill="#e3f4f9" fill-opacity="0.6"/>
+    <path d="M240 228 Q250 220 260 228" fill="none"/>
+    <path d="M182 226 L166 222 M318 226 L334 222" fill="none"/>
+
+    <!-- eyes -->
+    <circle cx="211" cy="234" r="4.5" fill="#6b3fd6" stroke="none"/>
+    <circle cx="289" cy="234" r="4.5" fill="#6b3fd6" stroke="none"/>
+
+    <!-- nose -->
+    <path d="M250 246 L244 284 Q250 290 258 286" fill="none" stroke-width="4"/>
+
+    <!-- smile -->
+    <path d="M226 308 Q250 324 274 308" fill="none" stroke-width="4"/>
+  </g>
+
+  <!-- t-shirt logo -->
+  <text x="250" y="468" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="38" font-weight="700" fill="#6b3fd6">&lt;/&gt;</text>
+</svg>
